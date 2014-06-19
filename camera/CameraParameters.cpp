@@ -191,7 +191,7 @@ const char CameraParameters::KEY_WEATHER[] = "weather";
 const char CameraParameters::KEY_CITYID[] = "contextualtag-cityid";
 #endif
 
-#ifndef QCOM_HARDWARE
+#ifdef SAMSUNG_EXYNOS_HARDWARE
 const char CameraParameters::KEY_ISO[] = "iso";
 const char CameraParameters::METERING_CENTER[] = "center";
 const char CameraParameters::METERING_SPOT[] = "spot";
