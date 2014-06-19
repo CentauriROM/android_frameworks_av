@@ -663,9 +663,8 @@ public:
     static const char KEY_WDR[];
     static const char KEY_WEATHER[];
     static const char KEY_CITYID[];
-#endif
 
-#ifdef SAMSUNG_EXYNOS_HARDWARE
+#ifndef QCOM_HARDWARE
     static const char KEY_ISO[];
     static const char METERING_CENTER[];
     static const char METERING_SPOT[];
@@ -674,6 +673,7 @@ public:
     static const char ISO_100[];
     static const char ISO_200[];
     static const char ISO_400[];
+#endif
 #endif
 
 #ifdef HTC_CAMERA_HARDWARE
